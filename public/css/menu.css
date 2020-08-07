@@ -98,6 +98,7 @@ header{
 .menu-item div p{
     margin: 7px 0 44px;
     color: rgb(81 199 160);
+    text-align: justify;
 }
 .menu-item.img-left img{
     float: left;

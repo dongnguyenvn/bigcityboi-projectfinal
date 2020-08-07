@@ -190,7 +190,7 @@ header{
     padding: 16% 15% 12% 12%;
 }
 .box1{
-    background-image: url("../imgs/home-8-image-1.jpg");
+    background-image: url("../images/home-8-image-1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,25 +199,25 @@ header{
     background-color: #eae7de;
 }
 .box3{
-    background-image: url("../imgs/home-8-image-2.jpg");
+    background-image: url("../images/home-8-image-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .box4{
-    background-image: url("../imgs/home-8-image-3.jpg");
+    background-image: url("../images/home-8-image-3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .box5{
-    background-image: url("../imgs/home-8-image-4.jpg");
+    background-image: url("../images/home-8-image-4.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .box6{
-    background-image: url("../imgs/home-8-image-5.jpg");
+    background-image: url("../images/home-8-image-5.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

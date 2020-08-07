@@ -1,0 +1,94 @@
+
+[
+    {
+        "id": 1,
+    "name": "espresso - 200g",
+    "price": "150,000 Đ",
+    "discription": "",
+    "photo": "/images/products/product1.jpg"
+    },
+    {
+        "id": 2,
+    "name": "espresso - 200g",
+    "price": "150,000 Đ",
+    "discription": "",
+    "photo": "/images/products/product2.jpg"
+    },
+    {
+        "id": 3,
+    "name": "espresso - 200g",
+    "price": "150,000 Đ",
+    "discription": "",
+    "photo": "/images/products/product3.jpg"
+    },
+    {
+        "id": 4,
+    "name": "espresso - 200g",
+    "price": "150,000 Đ",
+    "discription": "",
+    "photo": "/images/products/product4.jpg"
+    },
+    {
+        "id": 5,
+    "name": "espresso - 200g",
+    "price": "150,000 Đ",
+    "discription": "",
+    "photo": "/images/products/product5.jpg"
+    },
+    {
+        "id": 6,
+    "name": "espresso - 200g",
+    "price": "150,000 Đ",
+    "discription": "",
+    "photo": "/images/products/product5.jpg"
+    },
+    {
+        "id": 7,
+    "name": "Cốc NOC-BIGCITYBOI 8oz",
+    "price": "180,000 Đ",
+    "discription": "Chúng tôi chọn NOC là đối tác của chúng tôi chủ yếu vì chúng tôi yêu thích các thiết kế sạch sẽ và tối giản của họ. Ngoài vẻ đẹp, sự đơn giản và chức năng mặc dù là một công ty định hướng hào phóng với sứ mệnh xã hội và môi trường. Kể từ khi thành lập vào năm 2010, NOC đã dành 3% doanh thu cho các dự án nước sạch và y tế trên toàn thế giới. Mỗi giao dịch mua đều có Mã cho theo dõi nơi đóng góp cụ thể của bạn sẽ được triển khai",
+    "photo": "/images/products/product7.jpg"
+    },
+    {
+        "id": 8,
+    "name": "Cốc NOC-BIGCITYBOI 12oz",
+    "price": "225,000 Đ",
+    "discription": "Chúng tôi chọn NOC là đối tác của chúng tôi chủ yếu vì chúng tôi yêu thích các thiết kế sạch sẽ và tối giản của họ. Ngoài vẻ đẹp, sự đơn giản và chức năng mặc dù là một công ty định hướng hào phóng với sứ mệnh xã hội và môi trường. Kể từ khi thành lập vào năm 2010, NOC đã dành 3% doanh thu cho các dự án nước sạch và y tế trên toàn thế giới. Mỗi giao dịch mua đều có Mã cho theo dõi nơi đóng góp cụ thể của bạn sẽ được triển khai",
+    "photo": "/images/products/product8.jpg"
+    },
+    {
+        "id": 9,
+    "name": "Cốc du lịch NOC-BIGCITYBOI 12oz",
+    "price": "275,000 Đ",
+    "discription": "Chúng tôi chọn NOC là đối tác của chúng tôi chủ yếu vì chúng tôi yêu thích các thiết kế sạch sẽ và tối giản của họ. Ngoài vẻ đẹp, sự đơn giản và chức năng mặc dù là một công ty định hướng hào phóng với sứ mệnh xã hội và môi trường. Kể từ khi thành lập vào năm 2010, NOC đã dành 3% doanh thu cho các dự án nước sạch và y tế trên toàn thế giới. Mỗi giao dịch mua đều có Mã cho theo dõi nơi đóng góp cụ thể của bạn sẽ được triển khai",
+    "photo": "/images/products/product9.jpg"
+    },
+    {
+        "id": 10,
+    "name": "Cốc du lịch NOC-BIGCITYBOI 16oz",
+    "price": "325,000 Đ",
+    "discription": "Chúng tôi chọn NOC là đối tác của chúng tôi chủ yếu vì chúng tôi yêu thích các thiết kế sạch sẽ và tối giản của họ. Ngoài vẻ đẹp, sự đơn giản và chức năng mặc dù là một công ty định hướng hào phóng với sứ mệnh xã hội và môi trường. Kể từ khi thành lập vào năm 2010, NOC đã dành 3% doanh thu cho các dự án nước sạch và y tế trên toàn thế giới. Mỗi giao dịch mua đều có Mã cho theo dõi nơi đóng góp cụ thể của bạn sẽ được triển khai",
+    "photo": "/images/products/product10.jpg"
+    },
+    {
+        "id": 11,
+    "name": "NOC-BIGCITYBOI Pourigami",
+    "price": "80,000 Đ",
+    "discription": "Chúng tôi chọn NOC là đối tác của chúng tôi chủ yếu vì chúng tôi yêu thích các thiết kế sạch sẽ và tối giản của họ. Ngoài vẻ đẹp, sự đơn giản và chức năng mặc dù là một công ty định hướng hào phóng với sứ mệnh xã hội và môi trường. Kể từ khi thành lập vào năm 2010, NOC đã dành 3% doanh thu cho các dự án nước sạch và y tế trên toàn thế giới. Mỗi giao dịch mua đều có Mã cho theo dõi nơi đóng góp cụ thể của bạn sẽ được triển khai",
+    "photo": "/images/products/product11.jpg"
+    },
+    {
+        "id": 12,
+    "name": "Mũ NOC-xanh",
+    "price": "120,000 Đ",
+    "discription": "Được sản xuất Nhật Bản, chiếc mũ bông mềm và nhẹ này là phụ kiện hoàn hảo giúp bạn tránh nắng mùa hè",
+    "photo": "/images/products/product12.jpg"
+    },
+    {
+        "id": 13,
+    "name": "Mũ NOC-xám",
+    "price": "120,000 Đ",
+    "discription": "Được sản xuất Nhật Bản, chiếc mũ bông mềm và nhẹ này là phụ kiện hoàn hảo giúp bạn tránh nắng mùa hè",
+    "photo": "/images/products/product13.jpg"
+    }
+]

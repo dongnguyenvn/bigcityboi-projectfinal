@@ -6,31 +6,29 @@ app.use(express.static("public"));
 app.set("view engine","ejs");
 
 app.listen(PORT,function () {
-    console.log("sever is running ...")
+    console.log('sever is running ...')
 })
-
+// home page
 app.get("/",function (req,res) {
     res.render("home");
 })
-
+// products page
 app.get("/products",function (req,res) {
     res.render("products");
 })
+// menu page
 app.get("/menu",function (req,res) {
     res.render("menu");
 })
+// our-team page
 app.get("/our-team",function (req,res) {
-    res.render("ourteam");
+    res.render("our-team");
 })
-
-app.get("/our-team",function (req,res) {
-    res.render("ourteam");
-})
-
+// products-detail page
 app.get("/products-detail",function (req,res) {
     res.render("products-detail");
 })
-
+// products page
 const fs = require("fs")
 app.get("/even",function (req,res) {
     let products = fs.readFileSync("data/dataproducts.json","UTF-8");
@@ -39,7 +37,18 @@ app.get("/even",function (req,res) {
         products:products
     });
 })
-
+// products-search page
+app.get("/products-search",function(req,res) {
+    let products = fs.readFileSync("data/dataproducts.json","utf-8");
+    var q = req.query.q;
+    var matchedProducts = products.filter(function(product){
+        return product.name.indexOf(q) != -1 ;
+    })
+    res.render("even",{
+        product:matchedProducts
+    })
+})
+// detail products page
 app.get("/products-detail/:id",function (req,res) {
     let ID = req.params.id;
     let products = fs.readFileSync("data/dataproducts.json","UTF-8");

@@ -38,23 +38,24 @@ app.get("/even",function (req,res) {
     });
 })
 // products-search page
-// app.get("/products-search",function(req,res) {
-//     var couts = 0;
-//     let products = fs.readFileSync("data/dataproducts.json","utf-8");
-//     products = JSON.parse(products);
-//     var q = req.query.q;
-//     var matchedProducts = products.filter(function (product) {
-//         if(product.name.indexOf(q) !== -1){
-//             couts++
-//         }
-//         return product.name.indexOf(q) !== -1;
-//     });
-//     res.render("even",{
-//         products:matchedProducts,
-//         result:couts
-//     })
-//     console.log(couts);
-// })
+app.get("/products-search",function(req,res) {
+    var couts = 0;
+    let products = fs.readFileSync("data/dataproducts.json","utf-8");
+    products = JSON.parse(products);
+    var key = req.query.key;
+    var matchedProducts = products.filter(function (product) {
+        if(product.name.indexOf(key) !== -1){
+            couts++
+        }
+        return product.name.indexOf(key) !== -1;
+    });
+    res.render("products-search",{
+        products:matchedProducts,
+        result:couts,
+        value:key
+    })
+    console.log(couts);
+})
 // detail products page
 app.get("/products-detail/:id",function (req,res) {
     let ID = req.params.id;

@@ -157,3 +157,47 @@ footer>a{
 footer>a>div:hover{
     background-color: #000000;
 }
+form{
+    display: block;
+    margin: 20px auto;
+}
+.search {
+    width: 30%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: none;
+    border-right: none;
+    padding: 5px;
+    height: 25px;
+    outline: none;
+    padding-left: 15px;
+}
+
+.searchTerm:focus{
+    color: rgb(81 199 160);
+}
+
+.searchButton {
+    width: 40px;
+    height: 35px;
+    border: none;
+    background: rgb(81 199 160);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+#result{
+    text-align: center;
+}
+#notfound{
+
+}
+#error-content{
+    width:400px;
+    margin:0 auto;
+  }

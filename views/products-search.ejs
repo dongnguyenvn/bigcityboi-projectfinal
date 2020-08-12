@@ -17,14 +17,26 @@
             </div>
         </div>
     </div>
-    <form action="/products-search">
-        <input type="text" name="key" value="<%= value %>">
-        <button type="submit">Search</button>
+    <form class="search" action="/products-search">
+        <input type="text" name="key" class="searchTerm" placeholder="bạn muốn tìm gì?" value="<%= value %>">
+        <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
     </form>
     <% if(result>0){ %>
-        <p>đã tìm thấy <%= result %> kết quả tìm kiếm</p>
+        <p id="result">đã tìm thấy <%= result %> kết quả tìm kiếm</p>
     <% }else{%>
-        <p>không tìm thấy kết quả nào</p>
+        <p id="result">Rất tiếc, Chúng tôi không tìm thấy kết quả nào phù hợp với từ khóa   <b>"<%= value%>"</b></p>
+        <div id="not-found">
+            <div id="error-content">
+              <img src="https://www.freeiconspng.com/uploads/coffee-icon-png-21.PNG" width="350" alt="Icon Free Coffee" />
+              <h4>Để tìm được kết quả chính xác hơn, bạn vui lòng:</h4>
+              <ul>
+                <li>Kiểm tra lỗi chính tả của từ khóa đã nhập</li>
+                <li>Thử lại bằng từ khóa khác</li>
+                <li>Thử lại bằng những từ khóa tổng quát hơn</li>
+                <li>Thử lại bằng những từ khóa ngắn gọn hơn</li>
+              </ul>
+            </div>
+          </div>
     <% }%>
     <div id="products">
         <% products.map(function (e) { %>

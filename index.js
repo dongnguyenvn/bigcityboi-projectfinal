@@ -44,17 +44,16 @@ app.get("/products-search",function(req,res) {
     products = JSON.parse(products);
     var key = req.query.key;
     var matchedProducts = products.filter(function (product) {
-        if(product.name.indexOf(key) !== -1){
-            couts++
+        if(product.name.toLowerCase().indexOf(key.toLowerCase()) !== -1){
+            couts++;
+            return true;
         }
-        return product.name.indexOf(key) !== -1;
     });
     res.render("products-search",{
         products:matchedProducts,
         result:couts,
         value:key
     })
-    console.log(couts);
 })
 // detail products page
 app.get("/products-detail/:id",function (req,res) {
@@ -62,7 +61,7 @@ app.get("/products-detail/:id",function (req,res) {
     let products = fs.readFileSync("data/dataproducts.json","UTF-8");
     products = JSON.parse(products);
     let count = 0;
-    products.map(e=>{
+    products.map(e => {
         count++;
         if(e.id == ID){
             res.render("products-detail",{

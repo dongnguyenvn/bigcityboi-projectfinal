@@ -17,9 +17,9 @@
             </div>
         </div>
     </div>
-    <form action="/products-search">
-        <input type="text" name="key">
-        <button type="submit">Search</button>
+    <form class="search" action="/products-search">
+        <input type="text" name="key" class="searchTerm" placeholder="bạn muốn tìm gì?">
+        <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
     </form>
     <div id="products">
         <% products.map(function (e) { %>

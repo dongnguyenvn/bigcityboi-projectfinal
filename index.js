@@ -12,10 +12,6 @@ app.listen(PORT,function () {
 app.get("/",function (req,res) {
     res.render("home");
 })
-// products page
-app.get("/products",function (req,res) {
-    res.render("products");
-})
 // menu page
 app.get("/menu",function (req,res) {
     res.render("menu");
@@ -30,10 +26,10 @@ app.get("/products-detail",function (req,res) {
 })
 // products page
 const fs = require("fs")
-app.get("/even",function (req,res) {
+app.get("/products",function (req,res) {
     let products = fs.readFileSync("data/dataproducts.json","UTF-8");
     products = JSON.parse(products);
-    res.render("even",{
+    res.render("products",{
         products:products
     });
 })

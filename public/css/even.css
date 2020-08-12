@@ -110,6 +110,9 @@ header{
 .product-decs>h2{
     margin-top: 0;
 }
+.product-decs>div>p{
+    color: #c0c0c0;
+}
 .butomproducts{
     padding: 7px 24px ;
     text-align: center;

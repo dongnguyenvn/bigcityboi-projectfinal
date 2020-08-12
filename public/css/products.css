@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -93,6 +93,9 @@ h1{
     padding-left: 440px;
     font-size: 100px;
 }
+.content{
+    width: 100%;
+}
 .TD{
     width: 100%;
     height: 200px;
@@ -130,6 +133,10 @@ h2{
     margin-left: 35px;
     margin-bottom: 25px;
     background-color: #FFFFFF;
+    position: relative;
+}
+.khung:hover .butomproducts{
+    display: block;
 }
 .anh img{
     width: 100%;
@@ -148,26 +155,16 @@ p{
     height: 600px;
     margin-left: 40px;
 }
-button{
-    position: absolute;
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-    display: none;
-}
 .khung:hover button{
     display: block;
 }
-
-
-
-
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(81 199 160);
     height: 60px;
+    width: 100%;
 }
 .social-icon{
     width: 30px;
@@ -190,4 +187,54 @@ footer>a{
 }
 footer>a>div:hover{
     background-color: #000000;
+}
+form{
+    display: block;
+    margin: 20px auto;
+}
+.search {
+    width: 30%;
+    position: relative;
+    display: flex;
+}
+.searchTerm {
+    width: 100%;
+    border: none;
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    outline: none;
+    padding-left: 25px;
+}
+
+.searchTerm:focus{
+    color: rgb(81 199 160);
+}
+.searchButton {
+    width: 40px;
+    height: 35px;
+    border: none;
+    background: rgb(81 199 160);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+.butomproducts{
+    padding: 7px 24px ;
+    text-align: center;
+
+    text-decoration: none;
+    border: 1px solid rgb(81 199 160);
+    color: rgb(81 199 160);
+    font-weight: 500;
+
+    position: absolute;
+    top: 340px;
+    left: 78px;
+    display: none;
+}
+.butomproducts:hover{
+    background-color: rgb(81 199 160);
+    color: #fff;
 }
